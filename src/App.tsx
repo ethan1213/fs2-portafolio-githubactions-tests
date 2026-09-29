@@ -6,7 +6,7 @@ import Contact from "./pages/contact/Contact";
 import Menu from "./components/menu/Menu";
 import Section from "./components/section/Section";
 
-// "/fs2-portafolio" en build (Pages), "" en dev
+// "/fs2-portafolio-githubactions-tests" en build (Pages), "" en dev
 const base = import.meta.env.BASE_URL.replace(/\/$/, "") || "";
 
 const App = () => (

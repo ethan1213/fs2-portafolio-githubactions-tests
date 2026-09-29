@@ -2,7 +2,7 @@
 
 Portafolio personal con **Vite + React + TypeScript**, ruteo con **wouter**, componentes con CSS Modules y deploy automático a **GitHub Pages**. Sigue la estructura y convenciones de [fs2-react-app](https://github.com/docentedev/fs2-react-app).
 
-- Sitio: https://ethan1213.github.io/fs2-portafolio/
+- Sitio: https://ethan1213.github.io/fs2-portafolio-githubactions-tests/
 - Rutas: `/` (Inicio) · `/proyectos` · `/sobre-mi` · `/contacto`
 
 ## Inicio rápido
@@ -37,4 +37,4 @@ Para cambiar el contenido edita solo `src/data/portafolio.ts`.
 
 ## Deploy
 
-Repo `fs2-portafolio` → `base: '/fs2-portafolio/'` en `vite.config.ts`. Cada push a `main` redespliega vía `.github/workflows/deploy.yml` (requiere **Settings > Pages > Source: GitHub Actions** una sola vez).
+Repo `fs2-portafolio-githubactions-tests` → `base: '/fs2-portafolio-githubactions-tests/'` en `vite.config.ts`. Cada push a `main` redespliega vía `.github/workflows/deploy.yml` (requiere **Settings > Pages > Source: GitHub Actions** una sola vez).

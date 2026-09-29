@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // Base path para GitHub Pages (https://ethan1213.github.io/fs2-portafolio/)
-  base: '/fs2-portafolio/',
+  // Base path para GitHub Pages (https://ethan1213.github.io/fs2-portafolio-githubactions-tests/)
+  base: '/fs2-portafolio-githubactions-tests/',
   plugins: [react()],
 })

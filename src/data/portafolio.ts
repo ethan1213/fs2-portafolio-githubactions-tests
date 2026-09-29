@@ -22,8 +22,8 @@ export const proyectos: Proyecto[] = [
     titulo: "Portafolio personal",
     descripcion: "Este sitio: SPA con rutas, componentes con CSS Modules y deploy automático a GitHub Pages.",
     tecnologias: ["React", "TypeScript", "Vite", "wouter"],
-    repo: "https://github.com/ethan1213/fs2-portafolio",
-    demo: "https://ethan1213.github.io/fs2-portafolio/",
+    repo: "https://github.com/ethan1213/fs2-portafolio-githubactions-tests",
+    demo: "https://ethan1213.github.io/fs2-portafolio-githubactions-tests/",
   },
   {
     titulo: "Proyecto 2",
