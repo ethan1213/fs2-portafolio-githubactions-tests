@@ -1,0 +1,21 @@
+.form {
+  width: 420px;
+  max-width: 100%;
+}
+
+/* La Card de contacto es más ancha que la de 300px por defecto */
+.form > * {
+  width: 100%;
+}
+
+.campos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mensaje {
+  margin: 0;
+  color: #047857;
+  font-size: 0.875rem;
+}
